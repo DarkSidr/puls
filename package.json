@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DarkSidr/puls/issues"
   },
-  "homepage": "https://github.com/DarkSidr/puls#readme"
+  "homepage": "https://github.com/DarkSidr/puls#readme",
+  "devDependencies": {
+    "gulp-cli": "^2.3.0"
+  }
 }
