@@ -46,6 +46,11 @@
 			margin-top: 25px;
 		}
 	}
+	.carousel {
+		.prev, .next {
+			display: none;
+		}
+	}
 }
 @media (max-width: 767px) {
 	.header {
@@ -130,6 +135,16 @@
 	.feed-form {
 		margin: 0 auto;
 		margin-top: 15px;
+	}
+	.carousel {
+		.prev, .next {
+			display: none;
+		}
+		.tns-item {
+			img {
+				width: 65%;
+			}
+		}
 	}
 }
 @media (max-width: 550px) {
