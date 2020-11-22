@@ -52,6 +52,24 @@
 		}
 	}
 }
+@media (max-width: 901px) {
+	.catalog {
+		&__content {
+			justify-content: space-evenly;
+		}
+	}
+	.review {
+		&__content {
+			&_mt{
+				margin-top: 50px;
+			}
+		}
+		hr {
+			display: none;
+		}
+	}
+}
+	
 @media (max-width: 767px) {
 	.header {
 		&__phone {
@@ -146,6 +164,18 @@
 			}
 		}
 	}
+	.catalog {
+		&__tabs {
+			margin-top: 35px;
+		}
+		&__tab {
+			&:hover {
+				box-shadow: none;
+			}
+			
+		}
+	}
+	
 }
 @media (max-width: 550px) {
 	.button {
@@ -227,5 +257,36 @@
 			font-size: 14px;
 		}
 	}
-
+	.catalog {
+		padding-bottom: 30px;
+		&__tab {
+			margin: 5px 0;
+		}
+		&__tabs {
+			flex-direction: column;
+		}
+	}
+	.review {
+		&__content {
+			margin-top: 30px;
+			flex-wrap: wrap;
+			
+		}
+		img {
+			margin: 0 auto;
+		}
+		&__text {
+			text-align: center;
+		}
+		&__subtitle {
+			margin-top: 15px;
+		}
+	}
+}
+@media (max-width: 321px) {
+	.review {
+		&__descr {
+			font-size: 12px;
+		}
+	}
 }
