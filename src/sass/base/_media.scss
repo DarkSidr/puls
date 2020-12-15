@@ -381,6 +381,40 @@
 			}
 		}
 	}
+	.modal {
+		padding: 5px 5px 5px 5px;
+		width: 265px;
+		min-height: 340px;
+		border-radius: 3%;
+		&__subtitle {
+			font-size: 15px;
+		}
+		&__descr {
+			font-size: 12px;
+		}
+		&__close {
+			&_adap {
+				right: -25px;
+			}
+		}
+	}
+	.feed-form {
+		&_modal {
+			width: 250px;
+			input {
+				border: solid;
+			}
+		}
+	}
+	.button {
+		&_submit {
+			&_modal {
+				width: 250px;
+			}
+		}
+	}
+	
+
 }
 @media (max-width: 321px) {
 	.review {
