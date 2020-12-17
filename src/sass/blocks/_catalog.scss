@@ -128,14 +128,18 @@
             width: 50%;
             margin-left: 20px;
             transform: translateX(0%);
-            padding-right: 20px;
+            padding-right: 15px;
             transition: 0.5s all;
-            padding-left: 19px;
+            padding-left: 15px;
             padding-bottom: 0;
             list-style-type: none;
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;
+            }
+            ul {
+                list-style-type: none;
+                padding: 0;
             }
             li {
                 position: relative;
